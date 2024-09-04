@@ -95,7 +95,7 @@ export default function Dashboard() {
     const sMinute = padValue(newDate.getMinutes());
     let sAMPM = "AM";
 
-    if (sHour > 12) {
+    if (sHour >=12) {
       sAMPM = "PM";
       sHour -= 12;
     } else if (sHour === 0) {
