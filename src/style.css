@@ -4,6 +4,14 @@
     width: 90%;
 }
 
+html{
+    box-sizing: border-box;
+}
+
+*,*::before,*::after{
+    box-sizing: inherit;
+}
+
 .title_title__mJ8OQ {
     color:#646681;
     display: inline-block;
@@ -218,12 +226,6 @@ svg {
     width: 90%;
 }
 
-.modal_container__A\+\+T7, .modal_wrapper__PM20x {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-}
-
 .close{
     align-items: center;
     background-color: #eee;
@@ -241,8 +243,8 @@ svg {
     transform: translateY(-100%);
     transition: all .3s ease;
     z-index: -1;
-    height:20px;
-    width:20px
+    height:40px;
+    width:40px
 }
 
 .modal_form__9A5Bj {

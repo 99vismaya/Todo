@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import "primeicons/primeicons.css";
 
 export default function Dashboard() {
-  const [style, setStyle] = useState({ display: "none" });
+  const [style, setStyle] = useState({ display: "block" });
   const [taskName, setTaskName] = useState("");
   const [taskState, setTaskState] = useState("incomplete");
   const [tasks, setTasks] = useState(JSON.parse(localStorage.getItem("tasks")) || []);
